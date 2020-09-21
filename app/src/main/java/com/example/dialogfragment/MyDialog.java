@@ -11,9 +11,9 @@ import android.os.Bundle;
 
 public class MyDialog extends DialogFragment {
     Context mContext;
-//    public MyDialog() {
-//        //mContext = getActivity();
-//    }
+    public MyDialog() {
+        //mContext = getActivity();
+    }
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
         AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(getActivity());
